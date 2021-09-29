@@ -1,4 +1,5 @@
-input.onButtonPressed(Button.A, function () {
+loops.everyInterval(500, function () {
+    basic.clearScreen()
     basic.showLeds(`
         . # . # .
         # # # # #
@@ -6,7 +7,12 @@ input.onButtonPressed(Button.A, function () {
         . # # # .
         . . # . .
         `)
-})
-basic.forever(function () {
-	
+    basic.clearScreen()
+    basic.showLeds(`
+        . . . . .
+        . . . . .
+        . . . . .
+        . . . . .
+        . . . . .
+        `)
 })
